@@ -1,21 +1,16 @@
 # Atividade 2: Organização da Qualidade no LocalEats
 
-> Substituam os campos entre colchetes pelas respostas da equipe e removam as instruções antes da entrega.
-
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** ADS5M26-2C  
+**Equipe:** Gabriele de Q. Lapischies   
+**Data:** 26/09/2026
 
 ### Integrantes
 
 | Nome | Usuário no GitHub |
 |---|---|
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
+| Gabriele de Q. Lapischies | @GabrieleQL |
 
 **Elemento de Competência:** Identificar papéis, responsabilidades e competências relacionadas às atividades de qualidade e testes.
 
@@ -27,34 +22,30 @@
 
 | Problema identificado | Possível consequência para o produto ou para a equipe |
 |---|---|
-| [preencher] | [preencher] |
-| [preencher] | [preencher] |
-| [preencher] | [preencher] |
+| Funcionalidades com Defeitos | Interferir na ação completa do usuário na plataforma |
+| Critérios estabelecidos de forma não clara | Podem gerar atrasos e retrabalho para a equipe |
+| Mentalidade de Equipe dividida | Sobrecarga de trabalho para o integrante da equipe  |
 
 ### 2.2 Responsabilidade pela qualidade
 
 **A qualidade do LocalEats deve ser responsabilidade exclusiva do profissional de QA? Justifiquem.**
 
-[Resposta da equipe em até cinco linhas.]
+A qualidade do LocalEats não deve ser responsabilidade apenas do profissional de QA, antes, ele deve ser do interesse de toda equipe. Se um indivíduo da equipe não buscar realizar a sua função com qualidade, isso pode chegar até ao profissional de QA, a qual irá relatar os bugs encontrados, podendo ocasionar atraso e custo elevado, como por exemplo, um desenvolvedor dispensar o cuidado com as boas práticas no código e não realizar teste unitário. 
 
 ---
 
 ## 3. Tarefa 2: Papéis e competências
 
-> Cada integrante deve ser responsável pela análise de pelo menos um papel. Acrescentem ou removam linhas conforme a composição da equipe e os papéis escolhidos.
-
 | Integrante | Papel analisado | Responsabilidades relacionadas à qualidade | Competências técnicas | Competências comportamentais |
 |---|---|---|---|---|
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
+| Gabriele | Analista de Sistemas ou Negócios | Conversar com os setores da empresa para entender problemas, rotina e objetivos, Desenhar fluxos de trabalho, propor melhorias, transformar as regras da empresa em documentos claros, diagramas ou modelos para os programadores, homologar e testar se o sistema desenvolvido resolve o problema | Conhecimento de diagramas, conhecimento em metodologias ágeis, noção de arquitetura de software, Utilizar plataformas de documentação e controle de tarefas | Comunicação assertiva, pensamento analítico, negociação, empatia e escuta ativa |
+| Gabriele | Liderança Técnica | Guiar a direção técnica do projeto, apoiar o crescimento da equipe e garantir a entrega de código com qualidade | Ter conhecimento sólido de padrões de projeto, conhecimento em testes automatizados e ferramentas de CI/CD, e capacidade de identificar falhas de segurança | Comunicação assertiva, tomada de decisão, empatia e escuta ativa, e inteligência emocional  |
+| Gabriele | Desenvolvedor | Escrever códigos limpos e funcionais, solucionar falhas, validar o software e registrar a documentação | Lógica de programação e estrutura de dados, criar consultas e modelar dados com SQL, utilizar ferramentas de versionamento e noções de ambientes de hospedagem | Trabalho em equipe, adaptabilidade, gestão de tempo, resolução de problemas |
+| Gabriele | QA | Planejar testes, realizar testes manuais e exploratórios, documentar e reportar falhas encontradas, acompanhar o ciclo de vida do desenvolvimento | Conhecimento de técnicas, tipo de teste e ciclo de vida do bug, familiaridade com metodologias ágeis e capacidade de validar requisições | Pensamento crítico e analítico, atenção aos detalhes, proatividade, comunicação assertiva e visão sistêmica |
 
 ---
 
 ## 4. Tarefa 3: Matriz de responsabilidades
-
-> Substituam “Papel 1”, “Papel 2”, “Papel 3” e “Papel 4” pelos papéis definidos pela equipe. Acrescentem ou removam colunas conforme necessário.
 
 Utilizem:
 
@@ -63,17 +54,17 @@ Utilizem:
 - **C:** consultado antes da execução ou decisão;
 - **I:** informado sobre o resultado.
 
-| Atividade de qualidade | Papel 1 | Papel 2 | Papel 3 | Papel 4 |
+| Atividade de qualidade | Analista de Sistemas ou Negócios | Liderança Técnica | Desenvolvedor | QA |
 |---|:---:|:---:|:---:|:---:|
 | Definir critérios de aceitação |  |  |  |  |
-| Revisar requisitos |  |  |  |  |
-| Implementar a funcionalidade |  |  |  |  |
-| Revisar o código |  |  |  |  |
-| Criar testes unitários |  |  |  |  |
-| Planejar e executar testes do sistema |  |  |  |  |
-| Registrar e acompanhar defeitos |  |  |  |  |
-| Priorizar a correção dos defeitos |  |  |  |  |
-| Aprovar a disponibilização da versão |  |  |  |  |
+| Revisar requisitos | A | R |  |  |
+| Implementar a funcionalidade |  | A | R |  |
+| Revisar o código |  | A | R |  |
+| Criar testes unitários |  | A | R | R |
+| Planejar e executar testes do sistema |  | A | R | R |
+| Registrar e acompanhar defeitos | A |  | I | R |
+| Priorizar a correção dos defeitos |  | A | R | I |
+| Aprovar a disponibilização da versão | A |  | R |  |
 
 ### 4.1 Lacuna ou conflito encontrado
 
@@ -95,10 +86,9 @@ Utilizem:
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
+Gemini
 
 **Como foi utilizada:**  
-[Descrever brevemente.]
+Como apoio e pesquisa.
 
 **Como as respostas foram verificadas:**  
-[Descrever brevemente.]
