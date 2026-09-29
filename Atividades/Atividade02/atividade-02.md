@@ -61,7 +61,7 @@ Utilizem:
 | Implementar a funcionalidade |  | A | R |  |
 | Revisar o código |  | A | R |  |
 | Criar testes unitários |  | A | R |  |
-| Planejar e executar testes do sistema |  | A |  | R |
+| Planejar e executar testes do sistema | R | R | R | RA |
 | Registrar e acompanhar defeitos | A |  | I | R |
 | Priorizar a correção dos defeitos |  | A | R | I |
 | Aprovar a disponibilização da versão | A |  | R |  |
