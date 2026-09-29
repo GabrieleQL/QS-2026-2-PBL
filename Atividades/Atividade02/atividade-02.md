@@ -92,3 +92,4 @@ Gemini
 Como apoio e pesquisa.
 
 **Como as respostas foram verificadas:**  
+Como conhecimentos já obtidos.

@@ -41,7 +41,7 @@ Sim. Mesmo que as funcionalidades explícitas sejam implementadas, isso não gar
 
 | Integrante | Funcionalidade | O que foi realizado | O que foi observado | Evidência |
 |---|---|---|---|---|
-| Gabriele | Entrar no Sistema | O usuário informa email 'marcosfm@gmail.com' e senha '123456', usuário autenticado. O usuário informa email 'marcosfm@gmail.com' e senha '123457', credenciais inválidas | O usuário informou senha errada. | [ver evidência](Evidencias/marcos-login-senh-invalida.png) |
+| Gabriele | Entrar no Sistema | O usuário informa email 'marcosfm@gmail.com' e senha '123456', usuário autenticado. O usuário informa email 'marcosfm@gmail.com' e senha '123457', credenciais inválidas | O usuário informou senha errada. | [ver evidência](Evidencias/marcos-login-senha-invalida.png) |
 
 
 ---

@@ -10,7 +10,20 @@ Repositório da equipe para as atividades da Unidade Curricular Qualidade de Sof
 
 ## Atividades
 
-- atividades/atividade-01/
+```text
+QS-2026-2-PBL/
+├── Atividades/
+│   ├── Atividade01/
+|   |   ├── Evidencias/
+|   |   |   └── marcos-login-senha-invalida.png
+|   |   └── atividade-01.md
+│   ├── Atividade02/
+|   |   └── atividade-02.md
+|   └── Atividade03/
+|       └── atividade-03.md
+└── README.md
+```
+
 
 ## Aplicação analisada
 
