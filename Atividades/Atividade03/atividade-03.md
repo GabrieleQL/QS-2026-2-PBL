@@ -1,21 +1,16 @@
 # Atividade 3: Estratégia e Projeto de Testes do LocalEats
 
-> Substituam os campos entre colchetes pelas respostas da equipe e removam as instruções antes da entrega.
-
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** ADS5M26-2C  
+**Equipe:** Gabriele de Q. Lapischies   
+**Data:** 26/09/2026
 
 ### Integrantes
 
 | Nome | Usuário no GitHub |
 |---|---|
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
+| Gabriele de Q. Lapischies | @GabrieleQL |
 
 **Elemento de Competência:** Planejar e projetar testes selecionando técnicas adequadas.
 
@@ -27,7 +22,7 @@
 
 ### 2.1 Objetivo dos testes
 
-[Expliquem brevemente o que a equipe pretende verificar com os testes.]
+A equipe pretende verificar se os usuários possuem um limite de pratos a ser pedido em um pedido.
 
 ### 2.2 Escopo
 
@@ -35,95 +30,76 @@
 
 | Integrante | Funcionalidade incluída | O que será verificado |
 |---|---|---|
-| [nome] | [funcionalidade] | [preencher] |
-| [nome] | [funcionalidade] | [preencher] |
-| [nome] | [funcionalidade] | [preencher] |
-| [nome] | [funcionalidade] | [preencher] |
-
-> Acrescentem ou removam linhas conforme o número de integrantes.
+| Gabriele | Realizar Pedido | Se o usuário possue um limite de pratos a ser pedido em um pedido | 
 
 #### Funcionalidade não incluída
 
 | Funcionalidade não incluída | Justificativa |
 |---|---|
-| [preencher] | [preencher] |
+| Favoritar | Não faz parte do fluxo de realizar pedido  |
 
 ### 2.3 Abordagem
 
 | Item | Decisão da equipe | Justificativa |
 |---|---|---|
-| Níveis de teste | [preencher] | [preencher] |
-| Tipos de teste | [preencher] | [preencher] |
-| Perspectiva caixa-preta ou caixa-branca | [preencher] | [preencher] |
-| Técnicas de teste | [preencher] | [preencher] |
+| Níveis de teste | Unitário | Deverá ser calculado a quantidade selecionada do mesmo prato em um pedido |
+| Tipos de teste | Não Funcional | Verifica a capacidade de interação   |
+| Perspectiva caixa-preta ou caixa-branca | Caixa-Preta | Será visto pela ótica do usuário ao tentar selecionar um número x de um mesmo prato |
+| Técnicas de teste | Valores-Limite | Deve-se possuir um valor mínimo e máximo para a quantidade de pratos a ser selecionados em um pedido |
 
 ### 2.4 Ambiente e responsabilidades
 
 | Item | Definição |
 |---|---|
-| Ambiente necessário | [preencher] |
-| Responsáveis pelo planejamento | [preencher] |
-| Responsáveis pela especificação dos casos | [preencher] |
-| Responsáveis pela futura execução | [preencher] |
+| Ambiente necessário | Logado na aplicação [LocalEats](https://local-eats-unisenac.vercel.app/) |
+| Responsáveis pelo planejamento | Gerente de Projetos |
+| Responsáveis pela especificação dos casos | Analista de Sistemas ou Negócios |
+| Responsáveis pela futura execução | Usuário |
 
 ### 2.5 Critérios
 
 | Critério | Definição da equipe |
 |---|---|
-| Entrada | [O que precisa estar disponível antes do início dos testes?] |
-| Saída | [O que precisa ser atendido para considerar os testes concluídos?] |
-| Suspensão | [Em quais situações os testes deverão ser interrompidos?] |
+| Entrada | Usuário localizado na página de algum restaurante já logado na aplicação |
+| Saída | Usuário selecionar uma quantidade de pratos dentro do valor limite em um pedido |
+| Suspensão | Número de pratos indisponíveis para o pedido |
 
 ---
 
 ## 3. Tarefa 2: Riscos e técnicas de teste
 
-### 3.1 Análise dos riscos
-
-> Cada integrante deve analisar pelo menos um risco relacionado à funcionalidade escolhida. No trabalho individual, devem ser analisados dois riscos.
+### 3.1 Análise dos riscos  
 
 | ID | Integrante | Funcionalidade | Risco | Consequência | Probabilidade | Impacto | Prioridade | Justificativa |
 |---|---|---|---|---|:---:|:---:|:---:|---|
-| R01 | [nome] | [funcionalidade] | [o que pode dar errado] | [quem será afetado e como] | [Baixa/Média/Alta] | [Baixo/Médio/Alto] | [Baixa/Média/Alta] | [preencher] |
-| R02 | [nome] | [funcionalidade] | [o que pode dar errado] | [quem será afetado e como] | [Baixa/Média/Alta] | [Baixo/Médio/Alto] | [Baixa/Média/Alta] | [preencher] |
+| R01 | Gabriele | Realizar Pedido | O usuário tentar selecionar uma quantidade acima do valor limite disponível por pedido | O restaurante, por não haver a quantidade exigida pelo usuário | Média | Alto | Alta | A consequência prejudica ao restaurante que oferece o seu cardápio por falta de igredientes ou estoque | 
 
-> Acrescentem as linhas necessárias e mantenham identificadores únicos: R01, R02, R03 etc.
-
-### 3.2 Aplicação das técnicas
-
-> Cada integrante deve aplicar pelo menos uma técnica adequada à funcionalidade e ao risco analisado. A equipe deve utilizar, no conjunto da atividade, pelo menos duas técnicas diferentes.
+### 3.2 Aplicação das técnicas 
 
 #### Análise do integrante 1
 
-**Integrante:** [nome]  
-**Funcionalidade:** [preencher]  
-**Risco relacionado:** [R01]  
-**Técnica escolhida:** [particionamento de equivalência, análise de valor limite, tabela de decisão ou transição de estados]
+**Integrante:** Gabriele  
+**Funcionalidade:** Realizar Pedido  
+**Risco relacionado:** R01  
+**Técnica escolhida:** Análise de valor limite
 
 **Por que a técnica foi escolhida:**  
-[Expliquem por que a técnica é adequada à regra ou ao risco analisado.]
+A técnica foi escolhida por possuir nela a ideia de ter um limite inferior e superior.
 
 **Aplicação da técnica:**  
-[Apresentem as classes, limites, combinações ou transições identificadas. Utilizem uma tabela ou lista quando necessário.]
+Um pedido pode possuir de 1 a 10 quantidade de um mesmo prato. 
+Valores próximos aos limites:  
+- 0 qtd; 
+- 1 qtd; 
+- 2 qtd;  
+- 9 qtd;
+- 10 qtd;  
+- 11 qtd;  
 
-**Casos derivados:** [CT01 e CT02]
-
-#### Análise do integrante 2
-
-**Integrante:** [nome]  
-**Funcionalidade:** [preencher]  
-**Risco relacionado:** [R02]  
-**Técnica escolhida:** [preencher]
-
-**Por que a técnica foi escolhida:**  
-[preencher]
-
-**Aplicação da técnica:**  
-[preencher]
-
-**Casos derivados:** [preencher]
-
-> Repitam ou removam a seção de análise conforme o número de integrantes.
+**Casos derivados:**  
+- CT01: Tentar realizar um pedido com 0 quantidade de um mesmo prato;  
+- CT02: Realizar um pedido com 7 quantidades de um mesmo prato;  
+- CT03: Tentar realizar um pedido com 11 quantidades de um mesmo prato.
 
 ---
 
@@ -131,79 +107,97 @@
 
 ### 4.1 Casos de teste
 
-> No trabalho individual, elabore três casos. No trabalho em equipe, cada integrante deve elaborar pelo menos dois casos relacionados à própria funcionalidade.
+### CT01: Impedir finalização de pedido com zero quantidade de pratos selecionados
 
-### CT01: [Título do caso]
-
-**Integrante responsável:** [nome]  
-**Funcionalidade:** [preencher]  
-**Risco ou requisito relacionado:** [R01 ou descrição do requisito]  
-**Técnica utilizada:** [preencher]
+**Integrante responsável:** Gabriele  
+**Funcionalidade:** Realizar Pedido  
+**Risco ou requisito relacionado:** R01  
+**Técnica utilizada:** Análise de valor limite
 
 **Pré-condição:**  
-[O que precisa existir ou estar preparado antes da execução.]
+O usuário estar logado e selecionar o botão "Finalizar Pedido" sem adicionar um prato.
 
 **Dados de entrada:**  
-[Valores ou dados necessários. Caso não sejam necessários, registrem “Não se aplica”.]
+Não se aplica.
 
 **Passos:**
 
-1. [Primeiro passo.]
-2. [Segundo passo.]
-3. [Terceiro passo.]
+1. Acessar um restaurante
+2. Selecionar o botão "Finalizar Pedido"  
 
 **Resultado esperado:**  
-[Comportamento observável que indicará que o teste passou.]
+A plataforma não realiza o pedido e informa ao usuário que ele deve informar pelo menos um prato.
 
 ---
 
-### CT02: [Título do caso]
+### CT02: Finalizar pedido com uma quantidade de pratos dentro do limite estabelecido
 
-**Integrante responsável:** [nome]  
-**Funcionalidade:** [preencher]  
-**Risco ou requisito relacionado:** [preencher]  
-**Técnica utilizada:** [preencher]
+**Integrante responsável:** Gabriele  
+**Funcionalidade:** Realizar Pedido  
+**Risco ou requisito relacionado:** R01  
+**Técnica utilizada:** Análise de valor limite
 
 **Pré-condição:**  
-[preencher]
+O usuário estar logado, selecionar escolher um restaurante, escolher um prato e informar a quantidade desejada.  
 
 **Dados de entrada:**  
-[preencher]
+Quantidade de pratos do pedido: 3 quantidades
 
 **Passos:**
 
-1. [Primeiro passo.]
-2. [Segundo passo.]
-3. [Terceiro passo.]
+1. Acessar um restaurante
+2. Selecionar o prato  
+3. Informar a quantidade  
+4. Selecionar o botão "Finalizar Pedido"
 
 **Resultado esperado:**  
-[preencher]
+A plataforma finaliza o pedido e o usuário pode visualizar os detalhes do seu pedido. 
+
+---  
+
+### CT03: Impedir finalização de pedido com uma quantidade de pratos selecionados acima do valor limite
+
+**Integrante responsável:** Gabriele  
+**Funcionalidade:** Realizar Pedido  
+**Risco ou requisito relacionado:** R01  
+**Técnica utilizada:** Análise de valor limite
+
+**Pré-condição:**  
+O usuário estar logado, selecionar escolher um restaurante, escolher um prato e informar uma quantidade acima de 10.  
+
+**Dados de entrada:**  
+Quantidade de pratos do pedido: 11 quantidades
+
+**Passos:**
+
+1. Acessar um restaurante
+2. Selecionar o prato  
+3. Informar a quantidade  
+4. Selecionar o botão "Finalizar Pedido"
+
+**Resultado esperado:**  
+A plataforma não finaliza o pedido e notifica ao usuário que ele só pode selecionar até 10 quantidades daquele prato por pedido.
 
 ---
-
-> Copiem o modelo acima e continuem a numeração para criar os demais casos: CT03, CT04, CT05 etc.
 
 ### 4.2 Matriz de rastreabilidade
 
 | Integrante | Funcionalidade | Risco ou requisito | Técnica utilizada | Casos de teste |
 |---|---|---|---|---|
-| [nome] | [funcionalidade] | [R01 ou requisito] | [técnica] | [CT01 e CT02] |
-| [nome] | [funcionalidade] | [R02 ou requisito] | [técnica] | [CT03 e CT04] |
-
-> Acrescentem as linhas necessárias. Verifiquem se todos os riscos selecionados possuem casos de teste relacionados.
+| Gabriele | Realizar Pedido | R01 | Análise de valor limite | CT01, CT02 e CT03 |  
 
 ---
 
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
+Gemini
 
 **Como foi utilizada:**  
-[Descrever brevemente.]
+Apenas para para apoio.
 
 **Uma sugestão que precisou ser alterada ou rejeitada:**  
-[Descrever brevemente. Caso nenhuma sugestão tenha sido rejeitada, expliquem como as sugestões foram analisadas criticamente.]
+Lidas e analisadas com conhecimentos já obtidos.
 
 **Como as respostas foram verificadas:**  
-[Descrever brevemente.]
+Como conhecimentos já obtidos.
