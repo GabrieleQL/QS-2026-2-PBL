@@ -6,7 +6,7 @@ Repositório da equipe para as atividades da Unidade Curricular Qualidade de Sof
 
 | Nome | Turma | Usuário no GitHub |
 |---|---|---|
-| Gabriele de Q. | ADS5M26-2C | @GabrieleQL |
+| Gabriele de Q. Lapischies | ADS5M26-2C | @GabrieleQL |
 
 ## Atividades
 
