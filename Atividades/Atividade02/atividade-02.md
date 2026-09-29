@@ -56,12 +56,12 @@ Utilizem:
 
 | Atividade de qualidade | Analista de Sistemas ou Negócios | Liderança Técnica | Desenvolvedor | QA |
 |---|:---:|:---:|:---:|:---:|
-| Definir critérios de aceitação |  |  |  |  |
+| Definir critérios de aceitação | RA |  |  |  |
 | Revisar requisitos | A | R |  |  |
 | Implementar a funcionalidade |  | A | R |  |
 | Revisar o código |  | A | R |  |
-| Criar testes unitários |  | A | R | R |
-| Planejar e executar testes do sistema |  | A | R | R |
+| Criar testes unitários |  | A | R |  |
+| Planejar e executar testes do sistema |  | A |  | R |
 | Registrar e acompanhar defeitos | A |  | I | R |
 | Priorizar a correção dos defeitos |  | A | R | I |
 | Aprovar a disponibilização da versão | A |  | R |  |
@@ -69,17 +69,17 @@ Utilizem:
 ### 4.1 Lacuna ou conflito encontrado
 
 **Lacuna ou conflito:**  
-[Indiquem uma atividade sem responsabilidade clara, excessivamente concentrada ou com responsabilidades conflitantes.]
+Identificar falhas na fase de análise  
 
 **Consequência:**  
-[Expliquem o possível impacto para o produto ou para a equipe.]
+Evitaria prevenindo o retrabalho para que o erro não chegasse ao código em produção.
 
 ### 4.2 Práticas de QA recomendadas
 
 | Prática recomendada | Problema que ajuda a resolver | Papéis envolvidos |
 |---|---|---|
-| [preencher] | [preencher] | [preencher] |
-| [preencher] | [preencher] | [preencher] |
+| Revisão de código | Detectar bugs precocemente | Desenvolvedor |
+| Automação contínua em CI/CD | Obter feedback a cada alteração | Liderança Técnica |
 
 ---
 
